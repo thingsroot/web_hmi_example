@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "a8324ff9-e1fe-4d43-9e5b-a838ed5ef7ff",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "Pump Yellow Front 2": {
+      "ver": "1.0.3",
+      "uuid": "10ce0b2d-e03f-435a-a238-160c4285cd16",
+      "rawTextureUuid": "a8324ff9-e1fe-4d43-9e5b-a838ed5ef7ff",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 124,
+      "height": 89,
+      "rawWidth": 124,
+      "rawHeight": 89,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

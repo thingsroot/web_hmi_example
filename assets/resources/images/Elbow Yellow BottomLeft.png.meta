@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "c1cf8d0e-6c44-4142-a8f8-8009cf5e484e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "Elbow Yellow BottomLeft": {
+      "ver": "1.0.3",
+      "uuid": "d1e505f9-ca0f-45c3-8282-c745f2a2a89c",
+      "rawTextureUuid": "c1cf8d0e-6c44-4142-a8f8-8009cf5e484e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 45,
+      "height": 46,
+      "rawWidth": 45,
+      "rawHeight": 46,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

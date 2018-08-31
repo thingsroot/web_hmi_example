@@ -1,0 +1,200 @@
+<?xml version="1.0"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<ss:Styles>
+<ss:Style ss:ID="bold">
+<ss:Font ss:Bold="1"/>
+</ss:Style>
+<ss:Style ss:ID="number">
+<ss:Alignment ss:Horizontal="Right"/>
+</ss:Style>
+</ss:Styles>
+<Worksheet ss:Name="table">
+<Table>
+<Column ss:Width="224"/>
+<Column ss:Width="192"/>
+<Column ss:Width="224"/>
+<Column ss:Width="192"/>
+<Column ss:Width="192"/>
+<Column ss:Width="192"/>
+<Row>
+<Cell ss:StyleID="bold"><Data ss:Type="String">departure_time</Data></Cell>
+<Cell ss:StyleID="bold"><Data ss:Type="String">departure_airport</Data></Cell>
+<Cell ss:StyleID="bold"><Data ss:Type="String">arrival_time</Data></Cell>
+<Cell ss:StyleID="bold"><Data ss:Type="String">arrival_airport</Data></Cell>
+<Cell ss:StyleID="bold"><Data ss:Type="String">pilot_name</Data></Cell>
+<Cell ss:StyleID="bold"><Data ss:Type="String">aircraft</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-07-17 00:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(PMV) PLATTSMOUTH MUNI</Data></Cell>
+<Cell><Data ss:Type="String">2014-07-17 01:45:00</Data></Cell>
+<Cell><Data ss:Type="String">(MLI) QUAD CITY INTL</Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="String">(N115CC) BELLANCA 17-30A</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-07-18 20:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(HEF) MANASSAS RGNL/HARRY P. DAVIS FIELD</Data></Cell>
+<Cell><Data ss:Type="String">2014-07-19 00:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(C81) CAMPBELL</Data></Cell>
+<Cell><Data ss:Type="String">Ron Herold</Data></Cell>
+<Cell><Data ss:Type="String">(N62732) PIPER PA-23-250</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-07-18 20:30:00</Data></Cell>
+<Cell><Data ss:Type="String">(LHM) LINCOLN RGNL/KARL HARDER FIELD</Data></Cell>
+<Cell><Data ss:Type="String">2014-07-18 21:30:00</Data></Cell>
+<Cell><Data ss:Type="String">(MRY) MONTEREY RGNL</Data></Cell>
+<Cell><Data ss:Type="String">Ren Hart</Data></Cell>
+<Cell><Data ss:Type="String">(N52799) CESSNA 182P</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-07-19 13:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(SAV) SAVANNAH/HILTON HEAD INTL</Data></Cell>
+<Cell><Data ss:Type="String">2014-07-19 16:30:00</Data></Cell>
+<Cell><Data ss:Type="String">(EYW) KEY WEST INTL</Data></Cell>
+<Cell><Data ss:Type="String">Michael Calarruda</Data></Cell>
+<Cell><Data ss:Type="String">(N1890F) CESSNA 210F</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-07-21 03:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(C81) CAMPBELL</Data></Cell>
+<Cell><Data ss:Type="String">2014-07-21 07:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(OKM) OKMULGEE RGNL</Data></Cell>
+<Cell><Data ss:Type="String">Ron Herold</Data></Cell>
+<Cell><Data ss:Type="String">(N62732) PIPER PA-23-250</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-07-22 06:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(OKM) OKMULGEE RGNL</Data></Cell>
+<Cell><Data ss:Type="String">2014-07-22 10:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(LRU) LAS CRUCES INTL</Data></Cell>
+<Cell><Data ss:Type="String">Ron Herold</Data></Cell>
+<Cell><Data ss:Type="String">(N62732) PIPER PA-23-250</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-07-23 08:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(LRU) LAS CRUCES INTL</Data></Cell>
+<Cell><Data ss:Type="String">2014-07-23 09:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(AEG) DOUBLE EAGLE II</Data></Cell>
+<Cell><Data ss:Type="String">Ron Herold</Data></Cell>
+<Cell><Data ss:Type="String">(N62732) PIPER PA-23-250</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-07-27 09:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(AEG) DOUBLE EAGLE II</Data></Cell>
+<Cell><Data ss:Type="String">2014-07-27 14:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(SMO) SANTA MONICA MUNI</Data></Cell>
+<Cell><Data ss:Type="String">Ron Herold</Data></Cell>
+<Cell><Data ss:Type="String">(N62732) PIPER PA-23-250</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-07-29 13:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(T65) MID VALLEY</Data></Cell>
+<Cell><Data ss:Type="String">2014-07-29 15:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(T30) MC KINLEY FIELD</Data></Cell>
+<Cell><Data ss:Type="String">Daryl Miller</Data></Cell>
+<Cell><Data ss:Type="String">(N3812L) CESSNA 172G</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-07-29 22:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(ONX) CURRITUCK COUNTY RGNL</Data></Cell>
+<Cell><Data ss:Type="String">2014-07-30 13:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(OSH) WITTMAN RGNL</Data></Cell>
+<Cell><Data ss:Type="String">Chaz Mott</Data></Cell>
+<Cell><Data ss:Type="String">(N2987U) CESSNA 172E</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-08-01 15:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(HSD) SUNDANCE AIRPARK</Data></Cell>
+<Cell><Data ss:Type="String">2014-08-01 19:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(RID) RICHMOND MUNI</Data></Cell>
+<Cell><Data ss:Type="String">Ziggy Sanchez</Data></Cell>
+<Cell><Data ss:Type="String">(N771SL) CIRRUS DESIGN CORP SR22</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-08-03 18:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(OSH) WITTMAN RGNL</Data></Cell>
+<Cell><Data ss:Type="String">2014-08-04 02:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(ONX) CURRITUCK COUNTY RGNL</Data></Cell>
+<Cell><Data ss:Type="String">Chaz Mott</Data></Cell>
+<Cell><Data ss:Type="String">(N2987U) CESSNA 172E</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-10-23 20:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(APA) CENTENNIAL</Data></Cell>
+<Cell><Data ss:Type="String">2014-10-24 00:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(TUS) TUCSON INTL</Data></Cell>
+<Cell><Data ss:Type="String">Stephen Dreiling</Data></Cell>
+<Cell><Data ss:Type="String">(N248CB) CIRRUS DESIGN CORP SR22</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2014-10-26 19:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(TUS) TUCSON INTL</Data></Cell>
+<Cell><Data ss:Type="String">2014-10-26 23:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(APA) CENTENNIAL</Data></Cell>
+<Cell><Data ss:Type="String">Stephen Dreiling</Data></Cell>
+<Cell><Data ss:Type="String">(N248CB) CIRRUS DESIGN CORP SR22</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2015-01-16 13:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(MQJ) INDIANAPOLIS RGNL</Data></Cell>
+<Cell><Data ss:Type="String">2015-01-16 14:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(JWN) JOHN C TUNE</Data></Cell>
+<Cell><Data ss:Type="String">John Gotit</Data></Cell>
+<Cell><Data ss:Type="String">(N307D) CESSNA 501</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2015-01-19 08:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(JWN) JOHN C TUNE</Data></Cell>
+<Cell><Data ss:Type="String">2015-01-19 09:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(MQJ) INDIANAPOLIS RGNL</Data></Cell>
+<Cell><Data ss:Type="String">John Gotit</Data></Cell>
+<Cell><Data ss:Type="String">(N307D) CESSNA 501</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2016-03-12 13:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(MQJ) INDIANAPOLIS RGNL</Data></Cell>
+<Cell><Data ss:Type="String">2016-03-12 16:12:00</Data></Cell>
+<Cell><Data ss:Type="String">(FLL) FORT LAUDERDALE/HOLLYWOOD INTL</Data></Cell>
+<Cell><Data ss:Type="String">Richard Whipp</Data></Cell>
+<Cell><Data ss:Type="String">(N307D) CESSNA 501</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2016-03-12 14:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(FLL) FORT LAUDERDALE/HOLLYWOOD INTL</Data></Cell>
+<Cell><Data ss:Type="String">2016-03-12 17:12:00</Data></Cell>
+<Cell><Data ss:Type="String">(MQJ) INDIANAPOLIS RGNL</Data></Cell>
+<Cell><Data ss:Type="String">Richard Whipp</Data></Cell>
+<Cell><Data ss:Type="String">(N307D) CESSNA 501</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2016-04-05 00:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(VNY) VAN NUYS</Data></Cell>
+<Cell><Data ss:Type="String">2016-04-05 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(LAS) MC CARRAN INTL</Data></Cell>
+<Cell><Data ss:Type="String">Richard Whipp</Data></Cell>
+<Cell><Data ss:Type="String">(N307D) CESSNA 501</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2016-04-06 14:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(LAS) MC CARRAN INTL</Data></Cell>
+<Cell><Data ss:Type="String">2016-04-06 15:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(VNY) VAN NUYS</Data></Cell>
+<Cell><Data ss:Type="String">Richard Whipp</Data></Cell>
+<Cell><Data ss:Type="String">(N307D) CESSNA 501</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">2016-12-11 15:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(FWA) FORT WAYNE INTL</Data></Cell>
+<Cell><Data ss:Type="String">2016-12-11 18:00:00</Data></Cell>
+<Cell><Data ss:Type="String">(FLL) FORT LAUDERDALE/HOLLYWOOD INTL</Data></Cell>
+<Cell><Data ss:Type="String">Richard Whipp</Data></Cell>
+<Cell><Data ss:Type="String">(N307D) CESSNA 501</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

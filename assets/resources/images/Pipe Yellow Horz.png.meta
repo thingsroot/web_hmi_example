@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "cf0c0301-9b14-4f59-b4e0-b99712e35708",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "Pipe Yellow Horz": {
+      "ver": "1.0.3",
+      "uuid": "efc6c38f-a7a7-4178-8f26-138a27b905a3",
+      "rawTextureUuid": "cf0c0301-9b14-4f59-b4e0-b99712e35708",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 525,
+      "height": 20,
+      "rawWidth": 525,
+      "rawHeight": 20,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "4b558223-dd8f-4285-a581-5d5994a376c4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "Pipe Green Vert": {
+      "ver": "1.0.3",
+      "uuid": "b529f347-3a52-4745-8081-0e1563441b1b",
+      "rawTextureUuid": "4b558223-dd8f-4285-a581-5d5994a376c4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 20,
+      "height": 290,
+      "rawWidth": 20,
+      "rawHeight": 290,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

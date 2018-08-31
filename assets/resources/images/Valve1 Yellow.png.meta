@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "b1d42dc7-75d6-4d1f-84e2-cadf7e14cf6c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "Valve1 Yellow": {
+      "ver": "1.0.3",
+      "uuid": "1e931e6f-cf96-4879-a19b-84cfe386370e",
+      "rawTextureUuid": "b1d42dc7-75d6-4d1f-84e2-cadf7e14cf6c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 60,
+      "height": 62,
+      "rawWidth": 60,
+      "rawHeight": 62,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

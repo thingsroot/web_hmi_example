@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "3b7a353f-96a4-4b54-a8e8-b350dae1fbb5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "Pipe Green Horz": {
+      "ver": "1.0.3",
+      "uuid": "bc79f1c8-d14c-4065-9b2b-ed8e29afd40c",
+      "rawTextureUuid": "3b7a353f-96a4-4b54-a8e8-b350dae1fbb5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 525,
+      "height": 20,
+      "rawWidth": 525,
+      "rawHeight": 20,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

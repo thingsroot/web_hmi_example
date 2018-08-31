@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "9135c544-eab0-48f3-855e-1cc59b4a9f30",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "Pump Red Front 2": {
+      "ver": "1.0.3",
+      "uuid": "814b694c-76e9-4b01-ba8c-0a5598a732fe",
+      "rawTextureUuid": "9135c544-eab0-48f3-855e-1cc59b4a9f30",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 124,
+      "height": 89,
+      "rawWidth": 124,
+      "rawHeight": 89,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "b5f7431c-4b2c-464e-b0b4-21d7a97ce5a4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "Pipe Red Vert": {
+      "ver": "1.0.3",
+      "uuid": "831e12d5-a599-4169-87b3-79a485c90dee",
+      "rawTextureUuid": "b5f7431c-4b2c-464e-b0b4-21d7a97ce5a4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 20,
+      "height": 290,
+      "rawWidth": 20,
+      "rawHeight": 290,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

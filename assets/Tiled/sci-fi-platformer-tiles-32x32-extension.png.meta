@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "de4b86e3-866c-4662-a048-a1048e0204cc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "sci-fi-platformer-tiles-32x32-extension": {
+      "ver": "1.0.3",
+      "uuid": "bdf1d66c-05c8-45a5-97c4-69234e6d3e16",
+      "rawTextureUuid": "de4b86e3-866c-4662-a048-a1048e0204cc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 512,
+      "height": 3520,
+      "rawWidth": 512,
+      "rawHeight": 3520,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

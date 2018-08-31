@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "19a1af70-ecf3-4362-b527-1c6c3160c17d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "Elbow Red TopLeft": {
+      "ver": "1.0.3",
+      "uuid": "4d2e70be-5788-4e26-8733-606160e61c56",
+      "rawTextureUuid": "19a1af70-ecf3-4362-b527-1c6c3160c17d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 45,
+      "height": 46,
+      "rawWidth": 45,
+      "rawHeight": 46,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

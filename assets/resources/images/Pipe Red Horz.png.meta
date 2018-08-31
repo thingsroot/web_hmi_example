@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "71afadf7-3533-44bd-9b74-bc31a75c9c71",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "Pipe Red Horz": {
+      "ver": "1.0.3",
+      "uuid": "e0d598f1-80db-401a-a126-83291f6356f4",
+      "rawTextureUuid": "71afadf7-3533-44bd-9b74-bc31a75c9c71",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 525,
+      "height": 20,
+      "rawWidth": 525,
+      "rawHeight": 20,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
