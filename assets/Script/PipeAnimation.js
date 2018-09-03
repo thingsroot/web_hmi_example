@@ -12,7 +12,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        atlas: cc.SpriteAtlas,
+        //atlas: cc.SpriteAtlas,
         
         /**
          * !#en All the clips base name
@@ -21,49 +21,54 @@ cc.Class({
          * @type {cc.String[]}
          * @private
          */
-        _clips: {
-            default: [],
-            type: [cc.String],
-            visible: true
-        },
+        // _clips: {
+        //     default: [],
+        //     type: [cc.String],
+        //     visible: true
+        // },
+        folder: "powerImages/gifs",
+        _atlas: "",
 
-        play: {
+        atlas: {
             get () {
-                return this._play;
+                return this._atlas;
             },
             set (value) {
-                this._play = value;
-                this.on_play_clip(value);
+                this._atlas = value;
+                this.on_change_atlas(value);
             }
         },
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    create_clip(clip_name) {
-        var frames = new Array();
-        for (var i = 0; i < 10; i++) {
-            var frame =  this.atlas.getSpriteFrame(clip_name + ".p0" + i);
-            if (frame) {
-                frames[i] = frame;
+    load_clip(animation, atlas_name, play) {
+        var self = this;
+        cc.loader.loadRes(this.folder + "/" + atlas_name, cc.SpriteAtlas, function (err, atlas) {
+            if (!atlas) {
+                console.log("Loading atlas failed!", this.folder, atlas_name);
+                return;
             }
-        }
-        var clip = cc.AnimationClip.createWithSpriteFrames(frames, 15);
-        clip.name = clip_name;
-        clip.wrapMode = cc.WrapMode.Loop;
-        clip._duration = 37/60;
-        return clip;
+            var frames = new Array();
+            for (var i = 0; i < 10; i++) {
+                var frame =  atlas.getSpriteFrame("p0" + i);
+                if (frame) {
+                    frames[i] = frame;
+                }
+            }
+            var clip = cc.AnimationClip.createWithSpriteFrames(frames, 15);
+            clip.name = atlas_name;
+            clip.wrapMode = cc.WrapMode.Loop;
+            clip._duration = 37/60;
+                
+            animation.addClip(clip);
+            if (play) {
+                animation.play(atlas_name);
+            }
+        });
     },
 
     onLoad () {
-        this._clips_map = {};
-        var animation = this.node.addComponent(cc.Animation);
-        for (var i = 0; i < this._clips.length; i++) {
-            var clip = this.create_clip(this._clips[i]);
-            animation.addClip(clip);
-            this._clips_map[this._clips[i]] = clip;
-        }
-
         // var animation = this.node.addComponent(cc.Animation);
         // var frames = new Array();
         
@@ -78,28 +83,32 @@ cc.Class({
         // clip.wrapMode = cc.WrapMode.Loop;
         // clip._duration = 37/60;
         // animation.addClip(clip);
+        
+        var animation = this.node.addComponent(cc.Animation);
+        if (this._atlas != "") {
+            this.load_clip(animation, this._atlas, true);
+        }
     },
 
     start () {
         // var animation = this.node.getComponent(cc.Animation);
         // animation.play('pipe_ani');
-
-        if (this._clips.length > 0) {
-            this.play = this._clips[0];
-        }
     },
 
     // update (dt) {},
 
-    on_play_clip(value) {
+    on_change_atlas(value) {
         var animation = this.node.getComponent(cc.Animation);
-        if (this._clips_map[value]) {
-        } else {
-            var clip = this.create_clip(value);
-            animation.addClip(clip);
-            this._clips_map[value] = clip;
+        animation.stop();
+        var clips = animation.getClips();
+        for (var i = 0; i < clips.length; i++) {
+            animation.removeClip(clips[i]);
         }
-        animation.play(value);
+        this.load_clip(animation, value, true);
+    },
+    play() {
+        var animation = this.node.getComponent(cc.Animation);
+        animation.play(this._atlas);
     },
     stop() {
         var animation = this.node.getComponent(cc.Animation);

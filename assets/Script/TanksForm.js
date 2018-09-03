@@ -14,6 +14,7 @@ var TanksForm = cc.Class({
     properties: {
         Controls: cc.Node,
         ConfirmDlg: cc.Node,
+        home_bt: cc.Button
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -27,6 +28,9 @@ var TanksForm = cc.Class({
         TanksForm.instance = this;
         this.Controls = this.Controls.getComponent('TanksControls');
         this.ConfirmDlg = this.ConfirmDlg.getComponent('ConfirmDlg');
+        this.home_bt.node.on("click", function(event){
+            cc.director.loadScene("main");
+        })
     },
 
     start () {
