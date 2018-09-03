@@ -48,17 +48,17 @@ cc.Class({
         })
 
         // Load pipes
-        var self = this;
-        cc.loader.loadRes("pipe/blue", cc.SpriteFrame, function (err, spriteFrame) {
-            self.pipe.spriteFrame = spriteFrame;
-        });
+        // var self = this;
+        // cc.loader.loadRes("pipe/blue", cc.SpriteFrame, function (err, spriteFrame) {
+        //     self.pipe.spriteFrame = spriteFrame;
+        // });
     },
 
     start () {
-        this.schedule(function() {
-            // 这里的 this 指向 component
-            this.do_fetch_data();
-        }, 5);
+        // this.schedule(function() {
+        //     // 这里的 this 指向 component
+        //     this.do_fetch_data();
+        // }, 5);
     },
 
     onDisable() {

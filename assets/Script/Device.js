@@ -2,7 +2,7 @@
 var ThingsRoot = require('ThingsRoot');
 var ThingsRootWS = require('ThingsRootWS');
 
-var Device = cc.Class({
+cc.Class({
     extends: cc.Component,
 
     properties: {
@@ -20,22 +20,11 @@ var Device = cc.Class({
             default: "",
             type: cc.String,
             tooltip: 'Device SN.'
-        },
-        refresh_period: {
-            default: 5,
-            type: cc.Integer,
-            tooltip: 'Refresh data period in second.'
         }
     },
 
     // LIFE-CYCLE CALLBACKS:
-
-    statics: {
-        instance: null
-    },
-
     onLoad () {
-        Device.instance = this;
     },
 
     start () {

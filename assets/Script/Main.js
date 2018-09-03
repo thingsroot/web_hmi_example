@@ -14,6 +14,10 @@ cc.Class({
             default: null,
             type: cc.Button
         },
+        ups_button: {
+            default: null,
+            type: cc.Button
+        },
         // defaults, set visually when attaching this script to the Canvas
         text: 'ThingsRoot!',
         start_button_text: 'Start!',
@@ -25,6 +29,7 @@ cc.Class({
         this.start_button_label.string = this.start_button_text;
         // 
         this.start_button.node.on("click", this.on_start_click, this)
+        this.ups_button.node.on("click", this.on_ups_click, this)
     },
 
     // called every frame
@@ -34,5 +39,9 @@ cc.Class({
     on_start_click: function(event) {
         event.interactable = false;
         cc.director.loadScene("tanks");
+    },
+    on_ups_click: function(event) {
+        event.interactable = false;
+        cc.director.loadScene("ups");
     }
 });

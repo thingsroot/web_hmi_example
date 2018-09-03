@@ -37,8 +37,8 @@ cc.Class({
     // onLoad () {},
 
     start () {
-        this.value = 0;
-        this.quality = -1;
+        this._value = 0;
+        this._quality = -1;
     },
 
     update (dt) {
@@ -52,5 +52,9 @@ cc.Class({
         this.label.node.stopAllActions();
         var action = cc.fadeIn(2.0);
         this.label.node.runAction(action);
+
+        // if (this.on_value_change_cb) {
+        //     this.on_value_change_cb(value);
+        // }
     }
 });
