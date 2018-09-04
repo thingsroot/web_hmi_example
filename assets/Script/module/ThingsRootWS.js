@@ -18,6 +18,7 @@ class ThingsRootWS {
         this._websocket_server = "ws://cloud.thingsroot.com:17654";
         this._init_websocket();
         this._msg_id = 10000;
+        this._callback_map = {}
     }
 
     _init_websocket() {
@@ -26,7 +27,6 @@ class ThingsRootWS {
         var auth_code = this._auth_code;
         var options = this._options;
         var websocket_server = this._websocket_server;
-        var callback_map = {};
         var reinit = function() {
             this._init_websocket();
         }
@@ -59,10 +59,10 @@ class ThingsRootWS {
             var data = Object.assign({}, JSON.parse(event.data));
 
             // Trigger callback if there is any.
-            var cb = callback_map[data.id];
+            var cb = self._callback_map[data.id];
             if (cb) {
                 if (cb(data.id, data.code, data.data) != false) {
-                    callback_map[data.id] = null;
+                    self._callback_map[data.id] = null;
                 }
             }
 
@@ -120,9 +120,9 @@ class ThingsRootWS {
     send_ws_request(callback, code, data) {
         var websocket = this._websocket;
         if (data && websocket && websocket.readyState === WebSocket.OPEN) {
-            if (callback) { callback_map[msg_id] = callback; }
+            if (callback) { this._callback_map[this._msg_id] = callback; }
             websocket.send(JSON.stringify({
-                "id": this.msg_id++,
+                "id": this._msg_id++,
                 "code": code,
                 "data": data
             }));
