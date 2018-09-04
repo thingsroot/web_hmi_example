@@ -1,5 +1,5 @@
 
-var ThingsRoot = require('ThingsRoot');
+// var ThingsRoot = require('ThingsRoot');
 var ThingsRootWS = require('ThingsRootWS');
 
 cc.Class({
@@ -29,7 +29,7 @@ cc.Class({
 
     start () {
         var self = this;
-        ThingsRootWS.init(this.user_code, {
+        this._ws = new ThingsRootWS(this.user_code, {
             message: function(id, code, data) {
                 console.log('MESSAGE', code, id, data);
             },
@@ -54,8 +54,8 @@ cc.Class({
                 console.log('DEVICE_SUB', id, data);
             },
             login: function(id, code, data) {
-                ThingsRootWS.watch_device(self.gate_sn);
-                ThingsRootWS.watch_device(self.device_sn);
+                self._ws.watch_device(self.gate_sn);
+                self._ws.watch_device(self.device_sn);
             }
         })
         /*
@@ -69,7 +69,7 @@ cc.Class({
     },
 
     // update (dt) {},
-
+    /*
     do_fetch_data() {
         var self = this;
         ThingsRoot.get_device_data(function(r, data){
@@ -78,6 +78,7 @@ cc.Class({
             }
         }, this.gate_sn, this.device_sn)
     },
+    */
     set_input_data(data) {
         if (data.device == this.device_sn) {
             let children = this.node.children;
@@ -131,9 +132,9 @@ cc.Class({
         }
     },
     send_output(callback, output, value, prop) {
-        return ThingsRootWS.send_output(callback, this.gate_sn, this.device_sn, output, value, prop);
+        return this._ws.send_output(callback, this.gate_sn, this.device_sn, output, value, prop);
     },
     send_command(callback, cmd, param) {
-        return ThingsRootWS.send_command(callback, this.gate_sn, this.device_sn, cmd, param);
+        return this._ws.send_command(callback, this.gate_sn, this.device_sn, cmd, param);
     }
 });
