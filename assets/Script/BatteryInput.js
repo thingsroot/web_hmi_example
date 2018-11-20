@@ -64,12 +64,12 @@ cc.Class({
         ani4.stop();
         ani5.stop();
 
-        if (value == '主路供电') {
+        if (value == 2) {
             ani5.atlas = 'image5_2';
             ani4.atlas = 'image4_2_2_2';
             ani3.atlas = 'image3_0_2_2';
         }
-        if (value == '电池供电') {
+        if (value == 3) {
             ani4.atlas = 'image4_0_2_3';
             ani3.atlas = 'image3_0_2_2';
         }
